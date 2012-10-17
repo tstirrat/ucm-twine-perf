@@ -103,7 +103,7 @@
 		<dependency>
 			<groupId>com.oracle.ucm</groupId>
 			<artifactId>ucm</artifactId>
-			<version>[,12.0.0.0)</version>
+			<version>[,11.0.0.0)</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.caliper</groupId>

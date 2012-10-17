@@ -10,6 +10,9 @@ TWINE_VERSION=0.9.0
 
 CLASSPATH=$CLASSPATH:lib/ucm-twine-$TWINE_VERSION.jar:lib/ucm-twine-perf-$TWINE_PERF_VERSION.jar
 
+# allocation jar needed for some memory perf testing
+ALLOCATION_JAR=lib/java-allocation-instrumenter-2.0.jar
+
 # example test suite to run
 TEST_SUITE=org.ucmtwine.perf.benchmarks.ScriptProxyCallingBenchmark
 
